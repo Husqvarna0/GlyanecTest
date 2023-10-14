@@ -2968,27 +2968,7 @@
         });
     }
     function initSliders() {
-        if (document.querySelector(".task__slider")) new swiper_core_Swiper(".task__slider", {
-            modules: [ Navigation ],
-            observer: true,
-            observeParents: true,
-            slidesPerView: "auto",
-            spaceBetween: 30,
-            autoHeight: true,
-            speed: 800,
-            direction: "vertical",
-            slidesPerView: "auto",
-            freeMode: true,
-            scrollbar: {
-                el: ".swiper-scrollbar-drag",
-                draggable: true
-            },
-            navigation: {
-                prevEl: ".swiper-button-prev",
-                nextEl: ".swiper-button-next"
-            },
-            on: {}
-        });
+        
         if (document.querySelector(".team__slider")) new swiper_core_Swiper(".team__slider", {
             modules: [ Navigation ],
             observer: true,
